@@ -6,6 +6,15 @@
     <title>CRUD-PIOLA</title>
 </head>
 <body>
+    <nav> 
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'registro' %}">Registrar</a></li>
+            <li><a href="{% url 'signin' %}">Inicio sesion</a></li>
+            <li><a href="{% url 'salir' %}">Salir</a></li>
+        </ul>
+    </nav>
+
     
     {% block content %}
 
